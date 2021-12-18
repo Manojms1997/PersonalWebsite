@@ -1,19 +1,25 @@
 <script>
-  import Header from './Header.svelte';
- 
+  import Header from "./Header.svelte";
+  import About from "./About.svelte";
 </script>
 
 <div class="first-pane">
-  <Header/>
+  <Header />
   <div class="first-pane-body">
-    <h1
-      class="text-7xl font-sans text-stone-900 hover:text-yellow-900 dark:text-white"
-    >
+    <h1 class="text-7xl font-sans text-stone-900 dark:text-white">
       Hi!<br /> I'm Manoj Mysore Srinath<br /> I'm a Software Engineer
     </h1>
+    <!-- <img
+      src="down-icon-light.svg"
+      alt="scroll-down"
+      id="scroll-down"
+	  height="20px"
+	  width="20px"
+    /> -->
   </div>
 </div>
-<div class="second-pane">This is second pane</div>
+  <About />
+
 
 <style global lang="postcss">
   @tailwind base;
@@ -32,7 +38,6 @@
     justify-content: center;
     align-items: center;
   }
-
 
   .h1 {
     font-size: 7vh;
