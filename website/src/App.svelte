@@ -1,6 +1,7 @@
 <script>
   import Header from "./Header.svelte";
   import About from "./About.svelte";
+  import Projects from "./Projects.svelte";
 </script>
 
 <div class="first-pane">
@@ -19,6 +20,7 @@
   </div>
 </div>
   <About />
+  <Projects />
 
 
 <style global lang="postcss">
