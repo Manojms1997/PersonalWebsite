@@ -1,4 +1,5 @@
 <script>
+  import Skills from "./Skills.svelte";
 </script>
 
 <div class="about-block">
@@ -11,15 +12,7 @@
     Engineering, Arizona State University. I am actively looking for Software
     Engineering Internships for Summer-2022.
   </div>
-  <div id="skills">
-    <h1 class="text-5xl text-stone-900 dark:text-white m-4">Skills</h1>
-    <h1 class="text-3xl text-stone-900 dark:text-white ml-20 mt-20">Languages</h1>
-    <div class="text-2xl text-stone-900 dark:text-white ml-28">Javascript, Typescript, HTML, CSS, Dart, Python, C, C++, C#</div>
-    <h1 class="text-3xl text-stone-900 dark:text-white ml-20">Technologies</h1>
-    <div class="text-2xl text-stone-900 dark:text-white ml-28">Angular, Node.js, Svelte.js, Flutter, git, docker, webpack</div>
-    <h1 class="text-3xl text-stone-900 dark:text-white ml-20">Platforms</h1>
-    <div class="text-2xl text-stone-900 dark:text-white ml-28">Linux, Android, Windows, Azure</div>
-  </div>
+  <Skills />
   <div id="work">
     <h1 class="text-5xl text-stone-900 dark:text-white m-4 my-20">Work Experience</h1>
     <h1 class="text-3xl text-stone-900 dark:text-white ml-20">
