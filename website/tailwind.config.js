@@ -1,10 +1,9 @@
 const production = !process.env.ROLLUP_WATCH;
 module.exports = {
   content: [],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
-    extend: {
-    },
+    extend: {},
   },
   future: {
     purgeLayersByDefault: true,
@@ -13,14 +12,12 @@ module.exports = {
   plugins: [],
   variants: {
     extend: {
-      fontWeight: ['hover', 'focus'],
-      textColor: ['hover', 'focus']
+      fontWeight: ["hover", "focus"],
+      textColor: ["hover", "focus"],
     },
   },
   purge: {
-    content: [
-      "./src/**/*.svelte",
-    ],
-    enabled: production // disable purge in dev
+    content: ["./src/**/*.svelte","./src/*.svelte","./public/index.html"],
+    enabled: production, // disable purge in dev
   },
-}
+};

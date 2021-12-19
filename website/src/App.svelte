@@ -1,23 +1,14 @@
 <script>
   import Header from "./Header.svelte";
+  import FirstPaneBody from "./FirstPaneBody.svelte";
   import About from "./About.svelte";
   import Projects from "./Projects.svelte";
+  import Contact from "./Contact.svelte";
 </script>
 
 <div class="first-pane">
   <Header />
-  <div class="first-pane-body">
-    <h1 class="text-7xl font-sans text-stone-900 dark:text-white">
-      Hi!<br /> I'm Manoj Mysore Srinath<br /> I'm a Software Engineer
-    </h1>
-    <!-- <img
-      src="down-icon-light.svg"
-      alt="scroll-down"
-      id="scroll-down"
-	  height="20px"
-	  width="20px"
-    /> -->
-  </div>
+  <FirstPaneBody />
 </div>
   <About />
   <Projects />

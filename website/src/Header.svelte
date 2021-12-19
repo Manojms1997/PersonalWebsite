@@ -20,9 +20,9 @@
   </div>
   <div class="header-right">
     <div class="header-items text-stone-900 dark:text-white hover:font-semibold" on:click={() => {animateScroll.scrollTo({element: '.about-block'})}}>About</div>
-    <div class="header-items text-stone-900 dark:text-white hover:font-semibold">Projects</div>
+    <div class="header-items text-stone-900 dark:text-white hover:font-semibold" on:click={() => {animateScroll.scrollTo({element: '.projects-block'})}}>Projects</div>
     <div class="header-items text-stone-900 dark:text-white hover:font-semibold">Contact</div>
-    <div on:click={changeTheme} width="20px">
+    <div on:click={changeTheme}>
       {#if isThemeDark}
         <img
           src="theme-change-dark.svg"
