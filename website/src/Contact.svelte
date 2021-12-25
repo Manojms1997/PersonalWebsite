@@ -12,7 +12,7 @@
   <div class="contact-body">
     <div class="social-media-links">
       <!-- <img src="facebook-logo.svg" alt="Manoj" width="50px" height="50px" class="m-1"/> -->
-      <a href={linkedinLink}>
+      <a href={linkedinLink} target="_blank">
         <img
           src="linkedin-logo.svg"
           alt="linkedin"
@@ -21,22 +21,23 @@
           class="m-1"
         />
       </a>
-      <a href={githubLink}>
+      <a href={githubLink} target="_blank">
         <img
-          src="github-dark-logo.svg"
+          src="github-logo.svg"
           alt="github"
           width="50px"
           height="50px"
           class="m-1"
         />
       </a>
-      <a href={emailLink}>
+      <a href={emailLink} target="_blank">
         <img
           src="email-logo.svg"
           alt="email"
           width="50px"
           height="50px"
           class="m-1"
+          
         />
       </a>
     </div>

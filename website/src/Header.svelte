@@ -22,7 +22,7 @@
     <div class="header-items text-stone-900 dark:text-white hover:font-semibold cursor-pointer" on:click={() => {animateScroll.scrollTo({element: '.about-block'})}}>About</div>
     <div class="header-items text-stone-900 dark:text-white hover:font-semibold cursor-pointer" on:click={() => {animateScroll.scrollTo({element: '.projects-block'})}}>Projects</div>
     <div class="header-items text-stone-900 dark:text-white hover:font-semibold cursor-pointer" on:click={() => {animateScroll.scrollTo({element: '.Contact-heading'})}}>Contact</div>
-    <div on:click={changeTheme}>
+    <div on:click={changeTheme} class="cursor-pointer">
       {#if isThemeDark}
         <img
           src="theme-change-dark.svg"
