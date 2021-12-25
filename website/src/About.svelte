@@ -13,7 +13,7 @@
     Engineering Internships for Summer-2022.
   </div>
   <Skills />
-  <div id="work">
+  <!-- <div id="work">
     <h1 class="text-5xl text-stone-900 dark:text-white m-4 my-20">Work Experience</h1>
     <h1 class="text-3xl text-stone-900 dark:text-white ml-20">
       Software Engineer-Design and Development, Siemens Healthineers, Bangalore,
@@ -32,7 +32,7 @@
       Bachelor of Engineering in Electronics and Communication Engineering at
       Sri Jayachamarajendra College of Engineering, Mysuru, India
     </h1>
-  </div>
+  </div> -->
 </div>
 
 

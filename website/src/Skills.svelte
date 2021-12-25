@@ -6,7 +6,7 @@
     <h1 class="text-5xl text-stone-900 dark:text-white m-4">Skills</h1>
     <h1 class="text-3xl text-stone-900 dark:text-white ml-20 mt-20">Languages</h1>
     <!-- <div class="text-2xl text-stone-900 dark:text-white ml-28">Javascript, Typescript, HTML, CSS, Dart, Python, C, C++, C#</div> -->
-    <Skill skillName="Typescript" skillImagePath="Typescript-logo.svg"/>
+    <Skill skillName="Typescript" skillImagePath="typescript-logo.svg"/>
     <Skill skillName="Javascript" skillImagePath="javascript-logo.svg"/>
     <Skill skillName="HTML" skillImagePath="html-logo.svg"/>
     <Skill skillName="CSS" skillImagePath="css3-logo.svg"/>

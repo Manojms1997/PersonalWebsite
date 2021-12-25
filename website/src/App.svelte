@@ -9,10 +9,13 @@
 <div class="first-pane">
   <Header />
   <FirstPaneBody />
+  <hr class="border-2 rounded border-black dark:border-white ">
 </div>
   <About />
+  <hr class="border-2 rounded border-black dark:border-white ">
   <Projects />
-
+  <hr class="border-2 rounded border-black dark:border-white ">
+  <Contact />
 
 <style global lang="postcss">
   @tailwind base;
