@@ -5,7 +5,7 @@
 <div class="about-block">
   <h1 class="text-5xl text-stone-900 dark:text-white m-4">About</h1>
 
-  <div id="description" class="text-3xl text-stone-900 dark:text-white m-20 text-justify">
+  <div id="description" class="text-xl md:text-3xl text-stone-900 dark:text-white m-20 md:text-justify">
     I'm a Software Engineer with two years of experience in web development. I
     enjoy building web and mobile applications. Currently, I am pursuing my
     master's in Computer Engineering(Computer Systems) at Ira A Fulton School of
