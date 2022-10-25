@@ -4,9 +4,17 @@
   import About from "./About.svelte";
   import Projects from "./Projects.svelte";
   import Contact from "./Contact.svelte";
+
+  import FirstPage from "./pages/First-Page.svelte";
+  import DetailsPage from "./pages/Details-Page.svelte";
+  import {gsap} from 'gsap';
+
+  import {Router,Route,Link} from 'svelte-routing'
+  
+  export let url = "";
 </script>
 
-<div class="first-pane">
+<!-- <div class="first-pane">
   <Header />
   <FirstPaneBody />
   <hr class="border-2 rounded border-black dark:border-white ">
@@ -15,7 +23,18 @@
   <hr class="border-2 rounded border-black dark:border-white ">
   <Projects />
   <hr class="border-2 rounded border-black dark:border-white ">
-  <Contact />
+  <Contact /> -->
+
+  <Router url="{url}">
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="blog">Blog</Link>
+     </nav>
+     <div>
+      <Route path="/"><FirstPage /></Route>
+      <Route path="blog" component="{DetailsPage}" />
+     </div>
+  </Router>
 
 <style global lang="postcss">
   @tailwind base;
@@ -47,5 +66,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background: rgb(11, 185, 58);
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 </style>
