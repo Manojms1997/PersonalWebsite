@@ -29,6 +29,10 @@
         max-height: 85vh;
         border-radius: 50%;
     }
+
+    #details {
+        font-family: 'Arvo', serif;
+    }
 </style>
 
 <div class="first-page w-full">
