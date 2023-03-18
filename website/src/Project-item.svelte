@@ -4,10 +4,6 @@
   export let projectTitle;
   export let projectImage;
 
-  hello()
-  {
-    
-  }
 </script>
 
 <div class="project-item">
