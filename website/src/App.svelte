@@ -9,7 +9,7 @@
 <div class="first-pane">
   <Header />
   <FirstPaneBody />
-  <hr class="border-2 rounded border-black dark:border-white ">
+  <!-- <hr class="border-2 rounded border-black dark:border-white "> -->
 </div>
   <About />
   <hr class="border-2 rounded border-black dark:border-white ">

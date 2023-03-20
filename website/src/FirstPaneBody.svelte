@@ -15,33 +15,36 @@
   </style> -->
 
 <section
-  class="bg-cover bg-center bg-opacity-50 min-h-screen flex flex-col justify-center"
-  style="background-image: url('first-section-background.png');" id="hero-section"
+  class="bg-cover bg-center bg-opacity-50 min-h-screen flex flex-col justify-center dark-bg-image"
 >
   <div class="container mx-auto flex flex-col md:flex-row items-center py-12">
-    <div class="md:w-1/2">
-      <h2 class="text-4xl md:text-6xl font-bold leading-tight text-white">Hi, I am Manoj</h2>
+    <div class="text-center md:w-1/2">
+      <h2 class="text-4xl md:text-6xl font-bold leading-tight text-white ">Hi, I am Manoj Mysore Srinath</h2>
       <h2 class="text-4xl md:text-6xl font-bold leading-tight text-white">I am a Computer Engineer</h2>
     </div>
     <div class="md:w-1/2 mt-6 md:mt-0 flex justify-center">
       <div
-        class="rounded-full h-64 w-64 md:h-96 md:w-96
+        class="rounded-full h-64 w-64 md:h-96 md:w-96 
          overflow-hidden"
       >
         <img
           class="object-cover h-full w-full"
           src="Manoj.jpg"
-          alt="Profile Picture"
+          alt="Manoj Mysore Srinath"
           id="profile-pic"
         />
       </div>
     </div>
   </div>
 </section>
-
+ 
 <style>
   .bg-cover {
     background-size: cover;
+  }
+
+  .dark-bg-image {
+    background-image: url('/first-section-background.png');
   }
 
   .bg-center {
@@ -69,18 +72,9 @@
   .min-h-screen {
     min-height: 90vh;
   }
+
 </style>
 
 <script>
-  import { onMount } from 'svelte';
-
-  // onMount(async () => {
-  //   const heroSection = document.getElementById('hero-section');
-  //   heroSection.addEventListener('mousemove', (event) => {
-  //     const xPos = event.clientX / window.innerWidth;
-  //     const yPos = event.clientY / window.innerHeight;
-  //     heroSection.style.backgroundPosition = `${xPos * 100}% ${yPos * 100}%`;
-  //   });
-  // });
 
 </script>

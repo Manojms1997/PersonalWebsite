@@ -33,7 +33,7 @@
     <Skill skillName="Node.js" skillImagePath="nodejs-logo.svg" />
   </div>
   <div class="skill-block">
-    <Skill skillName="Svelte.js" skillImagePath="svelte-logo.svg" />
+    <Skill skillName=".NET" skillImagePath="dotnet.png" />
     <Skill skillName="Flutter" skillImagePath="flutter-logo.svg" />
   </div>
   <div class="skill-block">
@@ -42,6 +42,7 @@
   </div>
   <div class="skill-block">
     <Skill skillName="webpack" skillImagePath="webpack-logo.svg" />
+    <Skill skillName="Svelte.js" skillImagePath="svelte-logo.svg" />
   </div>
   <h1 class="text-3xl text-stone-900 dark:text-white ml-20">Platforms</h1>
   <!-- <div class="text-2xl text-stone-900 dark:text-white ml-28">Linux, Android, Windows, Azure</div> -->
